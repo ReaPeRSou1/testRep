@@ -1,7 +1,10 @@
 showPanel(0);
 changeElite(0);
 displayMain(0);
-changeSkill(0);
+var check = $('#info .skillDis').length
+if (check > 0) {
+    changeSkill(0);
+}
 const HPstats0 = parseInt($("#HPstats0").html());
 const HPstats1 = parseInt($("#HPstats1").html());
 const HPstats2 = parseInt($("#HPstats2").html());
@@ -84,6 +87,8 @@ function changeLevel(lev, el, maxLEV, maxHP, maxATK, maxDEF)
     var HP;
     var ATK;
     var DEF;
+
+console.log(HPstats0);
 
     if(el == 0)
     {
