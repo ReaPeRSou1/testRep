@@ -88,8 +88,6 @@ function changeLevel(lev, el, maxLEV, maxHP, maxATK, maxDEF)
     var ATK;
     var DEF;
 
-console.log(HPstats0);
-
     if(el == 0)
     {
         HP = HPstats0 +((maxHP - HPstats0)/(maxLEV - 1)) * (lev - 1);
