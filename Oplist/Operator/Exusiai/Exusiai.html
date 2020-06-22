@@ -2,10 +2,9 @@
 <html>
 <head>
     <title>Arknights Вики </title>
-    <link rel="stylesheet" type="text/css" href="../../../header.css"/>
     <link rel="stylesheet" type="text/css" href="../stylesheet.css"/>
+    <link rel="stylesheet" type="text/css" href="../../../header.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Conent-Type" content="text/html; charset=utf8" />
 </head>
 
  <body>
@@ -66,7 +65,7 @@
         </div>
 
     </div>
-    <div id="content">
+    <div id="content">   
         
         <ul>
             <li>
@@ -76,27 +75,35 @@
                 <button id="but2" onclick="showPanel(1)"> <img src="../pic/elite2.png" alt=""> </button>
             </li>
             <li>
-                <button id="but3" onclick="showPanel(2)"> <img src="pic/NewYear.png" alt="" height="41px" style="margin-left: 6px; margin-right: 8px; margin-top: 2px; margin-bottom: 1px; vertical-align: middle;"> </button>
+                <button id="but3" onclick="showPanel(2)"> <img src="pic/wilds.png" alt="" height="40px" style="margin-left: 3px; margin-right: 3px; margin-top: 4px; vertical-align: middle;"> </button>
+            </li>
+            <li>
+                <button id="but4" onclick="showPanel(3)"> <img src="pic/KFC.png" alt="" width="40px" style="margin-top: 13px; margin-bottom: 7px;"> </button>
             </li>
         </ul>
 
-        <h2 style="color: white; text-align: center;"> Ch'en </h2>
+        <h2 style="color: white; text-align: center;"> Exusiai </h2>
 
-        <img id="classs" src="pic/class_guard.png"  style="position: absolute; left: 15px; bottom: 15px;">
+        <img id="classs" src="pic/class_sniper.png" width="125px" style="position: absolute; left: 15px; bottom: 15px;">
 
-        <img id="frac" src="pic/logo_yan.png"  style="position: absolute; left: 15px;">
+        <img id="frac" src="pic/ping.png" width="125px" style="position: absolute; left: 15px;">
         
         <div class="operPic">
-            <img src="pic/Chen_1.png" height="99%">
+            <img src="pic/exu1.png" height="99%">
         </div>
 
         <div class="operPic">
-            <img src="pic/Chen_2.png" height="99%">
+            <img src="pic/exu2.png" height="99%">
         </div>
 
         <div class="operPic">
-            <img src="pic/Chen_NY.png" height="99%">
-        </div>    
+            <img src="pic/ExuSkinWild.png" height="99%">
+        </div>
+
+        <div class="operPic">
+            <img src="pic/ExuSkinKFC.png" height="99%">
+        </div>
+        
 
     </div>
 
@@ -123,7 +130,7 @@
         <div class="elite">
 
             <H3 style="margin: 10px 0 0 10px;">Уровень</H3>
-            <input type="range" value="1" min="1" max="50" oninput="changeLevel(this.value,0, 50, 1684, 361, 221)" style="margin-top:20px;width:60%; margin-left: 20px;">
+            <input type="range" value="1" min="1" max="50" oninput="changeLevel(this.value,0, 50, 1016, 305, 95)" style="margin-top:20px;width:60%; margin-left: 20px;">
             <h3 id="num0" class="lev0 display1" style="padding: 5px 9.6px 5px 9.6px;">1</h3>
 
             <div>
@@ -132,43 +139,42 @@
                     <tbody>
                         <tr>
                             <td class="skillname">Максимум HP</td>
-                            <td id="HPstats0" class="skillnum">1229</td>
+                            <td id="HPstats0" class="skillnum">711</td>
                             <td class="skillname">Повторное <br> Размещение</td>
                             <td class="skillnum">70с</td>
                         </tr>
                         <tr>
                             <td class="skillname">Сила Атаки</td>
-                            <td id="ATKstats0" class="skillnum">249</td>
+                            <td id="ATKstats0" class="skillnum">183</td>
                             <td class="skillname">Стоимость</td>
-                            <td class="skillnum">19</td>
+                            <td class="skillnum">12</td>
                         </tr>
                         <tr>
                             <td class="skillname">Физ. защита</td>
-                            <td id="DEFstats0" class="skillnum">154</td>
+                            <td id="DEFstats0" class="skillnum">57</td>
                             <td class="skillname">Блокирует</td>
-                            <td class="skillnum">2</td>
+                            <td class="skillnum">1</td>
                         </tr>
                         <tr>
                             <td class="skillname">Маг. защита</td>
                             <td class="skillnum">0</td>
                             <td class="skillname">Время атаки</td>
-                            <td class="skillnum">1.3с</td>
+                            <td class="skillnum">1с</td>
                         </tr>
                     </tbody>
                 </table>
 
             </div>
 
-
             <H3 style="margin: 10px 0 10px 0; text-align: center; background-color: rgb(50, 50, 50); padding: 5px 0 5px;" >Радиус Атаки</H3>
-            <img src="pic/range1.png" width="50px" style="display: block; margin-left: auto; margin-right: auto;">
+            <img src="pic/range.png" width="100px" style="display: block; margin-left: auto; margin-right: auto;">
             
         </div>
 
         <div class="elite">
 
             <H3 style="margin: 10px 0 0 10px;">Уровень</H3>
-            <input type="range" value="1" min="1" max="80" oninput="changeLevel(this.value, 1, 80, 2188, 469, 288)" style="margin-top:20px;width:60%; margin-left: 20px;">
+            <input type="range" value="1" min="1" max="80" oninput="changeLevel(this.value, 1, 80, 1338, 437, 136)" style="margin-top:20px;width:60%; margin-left: 20px;">
             <h3 id="num1" class="lev1 display1" style="padding: 5px 9.6px 5px 9.6px;">1</h3>
 
             <div>
@@ -177,27 +183,27 @@
                     <tbody>
                         <tr>
                             <td class="skillname">Максимум HP</td>
-                            <td id="HPstats1" class="skillnum">1684</td>
+                            <td id="HPstats1" class="skillnum">1016</td>
                             <td class="skillname">Повторное <br> Размещение</td>
                             <td class="skillnum">70с</td>
                         </tr>
                         <tr>
                             <td class="skillname">Сила Атаки</td>
-                            <td id="ATKstats1" class="skillnum">361</td>
+                            <td id="ATKstats1" class="skillnum">305</td>
                             <td class="skillname">Стоимость</td>
-                            <td class="skillnum">21</td>
+                            <td class="skillnum">14</td>
                         </tr>
                         <tr>
                             <td class="skillname">Физ. защита</td>
-                            <td id="DEFstats1" class="skillnum">221</td>
+                            <td id="DEFstats1" class="skillnum">95</td>
                             <td class="skillname">Блокирует</td>
-                            <td class="skillnum">2</td>
+                            <td class="skillnum">1</td>
                         </tr>
                         <tr>
                             <td class="skillname">Маг. защита</td>
                             <td class="skillnum">0</td>
                             <td class="skillname">Время атаки</td>
-                            <td class="skillnum">1.3с</td>
+                            <td class="skillnum">1с</td>
                         </tr>
                     </tbody>
                 </table>
@@ -205,14 +211,14 @@
             </div>
 
             <H3 style="margin: 10px 0 10px 0; text-align: center; background-color: rgb(50, 50, 50); padding: 5px 0 5px;" >Радиус Атаки</H3>
-            <img src="pic/range1.png" width="50px" style="display: block; margin-left: auto; margin-right: auto;">
+            <img src="pic/range2.png" width="100px" style="display: block; margin-left: auto; margin-right: auto;">
             
         </div>
 
         <div class="elite">
 
             <H3 style="margin: 10px 0 0 10px;">Уровень</H3>
-            <input type="range" value="1" min="1" max="90" oninput="changeLevel(this.value, 2, 90, 2880, 610, 352)" style="margin-top:20px;width:60%; margin-left: 20px;">
+            <input type="range" value="1" min="1" max="90" oninput="changeLevel(this.value, 2, 90, 1673, 540, 161)" style="margin-top:20px;width:60%; margin-left: 20px;">
             <h3 id="num2" class="lev2 display1" style="padding: 5px 9.6px 5px 9.6px;">1</h3>
             
             <div>
@@ -221,27 +227,27 @@
                     <tbody>
                         <tr>
                             <td class="skillname">Максимум HP</td>
-                            <td id="HPstats2" class="skillnum">2188</td>
+                            <td id="HPstats2" class="skillnum">1338</td>
                             <td class="skillname">Повторное <br> Размещение</td>
                             <td class="skillnum">70с</td>
                         </tr>
                         <tr>
                             <td class="skillname">Сила Атаки</td>
-                            <td id="ATKstats2" class="skillnum">469</td>
+                            <td id="ATKstats2" class="skillnum">437</td>
                             <td class="skillname">Стоимость</td>
-                            <td class="skillnum">23</td>
+                            <td class="skillnum">14</td>
                         </tr>
                         <tr>
                             <td class="skillname">Физ. защита</td>
-                            <td id="DEFstats2" class="skillnum">288</td>
+                            <td id="DEFstats2" class="skillnum">136</td>
                             <td class="skillname">Блокирует</td>
-                            <td class="skillnum">2</td>
+                            <td class="skillnum">1</td>
                         </tr>
                         <tr>
                             <td class="skillname">Маг. защита</td>
                             <td class="skillnum">0</td>
                             <td class="skillname">Время атаки</td>
-                            <td class="skillnum">1.3с</td>
+                            <td class="skillnum">1с</td>
                         </tr>
                     </tbody>
                 </table>
@@ -249,7 +255,7 @@
             </div>
             
             <H3 style="margin: 10px 0 10px 0; text-align: center; background-color: rgb(50, 50, 50); padding: 5px 0 5px;" >Радиус Атаки</H3>
-            <img src="pic/range1.png" width="50px" style="display: block; margin-left: auto; margin-right: auto;">
+            <img src="pic/range2.png" width="100px" style="display: block; margin-left: auto; margin-right: auto;">
 
         </div>
 
@@ -265,25 +271,25 @@
                     <li>
                         <img src="../pic/pot2.png" alt="" height="15px" style="display: inline-block;">
                         
-                           Повторный призыв: -4
+                            Улучшение первого Таланта
                         
                     </li>
                     <li>
                         <img src="../pic/pot3.png" alt="" height="15px" style="display: inline-block;">
                         
-                            Сила Атаки: +23
+                            Сила Атаки: +27
                         
                     </li>
                     <li>
                         <img src="../pic/pot4.png" alt="" height="15px" style="display: inline-block;">
                         
-                            Улучшение второго Таланта
+                            Стоимость: -1
                         
                     </li>
                     <li>
                         <img src="../pic/pot5.png" alt="" height="15px" style="display: inline-block;">
                         
-                            Стоимость: -1
+                            Улучшение второго Таланта
                         
                     </li>
                 </ul>
@@ -292,8 +298,7 @@
             <h2> Бонус доверия:</h2>
             <div style="display: block; width: 65%; margin-left: auto; margin-right: auto;">
 
-                <p style="text-align: center;">Сила Атаки: +50</p>
-                <p style="text-align: center;">Физ. защита: +50</p>
+                <p style="text-align: center;">Сила Атаки: +90</p>
                 
             </div>    
 
@@ -319,7 +324,7 @@
 
             <div style=" background-color: rgba(255, 0, 0, 0.4);">
                 <img src="pic/skill1.png" alt="" height="50px" style="display: inline-block">
-                <span class="skillTitle"style="margin-top: 5%; margin-left: 15px;"> Sheath Strike</span>
+                <span class="skillTitle"style="margin-top: 5%; margin-left: 15px;"> Assault Mode</span>
             </div>
 
             <H3 style="margin: 10px 0 0 10px;">Уровень</H3>
@@ -345,7 +350,7 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 7</p>
+                                <p>SP Стоимость: 5</p>
                             </td>
     
                             <td>
@@ -360,7 +365,7 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атака по врагу</span>
                                 </p>
                             </td>
                             <td>
@@ -382,8 +387,8 @@
     
                 </div>
                 <p>
-                    При следующей атаке ударяет врага ножнами, нанося <span style="color: rgb(78, 196, 255);">200%</span> 
-                    физического урона и оглушая врага на <span style="color: rgb(78, 196, 255);">1</span> секунду. 
+                    Следующая атака ударит <span style="color: rgb(78, 196, 255);">3</span> раза, 
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">105%</span> урона.
                 </p>
 
             </div>
@@ -396,7 +401,7 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 7</p>
+                                <p>SP Стоимость: 5</p>
                             </td>
     
                             <td>
@@ -411,7 +416,7 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атака по врагу</span>
                                 </p>
                             </td>
                             <td>
@@ -433,8 +438,8 @@
     
                 </div>
                 <p>
-                    При следующей атаке ударяет врага ножнами, нанося <span style="color: rgb(78, 196, 255);">210%</span> 
-                    физического урона и оглушая врага на <span style="color: rgb(78, 196, 255);">1</span> секунду. 
+                    Следующая атака ударит <span style="color: rgb(78, 196, 255);">3</span> раза, 
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">107%</span> урона.
                 </p>
 
             </div>
@@ -447,7 +452,7 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 7</p>
+                                <p>SP Стоимость: 5</p>
                             </td>
     
                             <td>
@@ -462,7 +467,7 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атака по врагу</span>
                                 </p>
                             </td>
                             <td>
@@ -484,8 +489,8 @@
     
                 </div>
                 <p>
-                    При следующей атаке ударяет врага ножнами, нанося <span style="color: rgb(78, 196, 255);">220%</span> 
-                    физического урона и оглушая врага на <span style="color: rgb(78, 196, 255);">1</span> секунду. 
+                    Следующая атака ударит <span style="color: rgb(78, 196, 255);">3</span> раза, 
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">109%</span> урона.
                 </p>
 
             </div>
@@ -498,7 +503,7 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 6</p>
+                                <p>SP Стоимость: 4</p>
                             </td>
     
                             <td>
@@ -513,7 +518,7 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атака по врагу</span>
                                 </p>
                             </td>
                             <td>
@@ -535,8 +540,8 @@
     
                 </div>
                 <p>
-                    При следующей атаке ударяет врага ножнами, нанося <span style="color: rgb(78, 196, 255);">230%</span> 
-                    физического урона и оглушая врага на <span style="color: rgb(78, 196, 255);">1.25</span> секунды. 
+                    Следующая атака ударит <span style="color: rgb(78, 196, 255);">3</span> раза, 
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">113%</span> урона.
                 </p>
 
             </div>
@@ -549,7 +554,7 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 6</p>
+                                <p>SP Стоимость: 4</p>
                             </td>
     
                             <td>
@@ -564,7 +569,7 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атака по врагу</span>
                                 </p>
                             </td>
                             <td>
@@ -586,8 +591,8 @@
     
                 </div>
                 <p>
-                    При следующей атаке ударяет врага ножнами, нанося <span style="color: rgb(78, 196, 255);">240%</span> 
-                    физического урона и оглушая врага на <span style="color: rgb(78, 196, 255);">1.25</span> секунды. 
+                    Следующая атака ударит <span style="color: rgb(78, 196, 255);">3</span> раза, 
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">115%</span> урона.
                 </p>
 
             </div>
@@ -600,7 +605,7 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 6</p>
+                                <p>SP Стоимость: 4</p>
                             </td>
     
                             <td>
@@ -615,7 +620,7 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атака по врагу</span>
                                 </p>
                             </td>
                             <td>
@@ -637,8 +642,8 @@
     
                 </div>
                 <p>
-                    При следующей атаке ударяет врага ножнами, нанося <span style="color: rgb(78, 196, 255);">250%</span> 
-                    физического урона и оглушая врага на <span style="color: rgb(78, 196, 255);">1.25</span> секунды. 
+                    Следующая атака ударит <span style="color: rgb(78, 196, 255);">3</span> раза, 
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">117%</span> урона.
                 </p>
 
             </div>
@@ -651,7 +656,7 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 5</p>
+                                <p>SP Стоимость: 4</p>
                             </td>
     
                             <td>
@@ -666,7 +671,7 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атака по врагу</span>
                                 </p>
                             </td>
                             <td>
@@ -688,8 +693,8 @@
     
                 </div>
                 <p>
-                    При следующей атаке ударяет врага ножнами, нанося <span style="color: rgb(78, 196, 255);">260%</span> 
-                    физического урона и оглушая врага на <span style="color: rgb(78, 196, 255);">1.5</span> секунды. 
+                    Следующая атака ударит <span style="color: rgb(78, 196, 255);">3</span> раза, 
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">121%</span> урона.
                 </p>
 
             </div>
@@ -702,7 +707,7 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 5</p>
+                                <p>SP Стоимость: 4</p>
                             </td>
     
                             <td>
@@ -717,7 +722,7 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атака по врагу</span>
                                 </p>
                             </td>
                             <td>
@@ -739,8 +744,8 @@
     
                 </div>
                 <p>
-                    При следующей атаке ударяет врага ножнами, нанося <span style="color: rgb(78, 196, 255);">280%</span> 
-                    физического урона и оглушая врага на <span style="color: rgb(78, 196, 255);">1.5</span> секунды. 
+                    Следующая атака ударит <span style="color: rgb(78, 196, 255);">3</span> раза, 
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">129%</span> урона.
                 </p>
 
             </div>
@@ -753,7 +758,7 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 5</p>
+                                <p>SP Стоимость: 4</p>
                             </td>
     
                             <td>
@@ -768,7 +773,7 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атака по врагу</span>
                                 </p>
                             </td>
                             <td>
@@ -790,8 +795,8 @@
     
                 </div>
                 <p>
-                    При следующей атаке ударяет врага ножнами, нанося <span style="color: rgb(78, 196, 255);">300%</span> 
-                    физического урона и оглушая врага на <span style="color: rgb(78, 196, 255);">1.5</span> секунды. 
+                    Следующая атака ударит <span style="color: rgb(78, 196, 255);">3</span> раза, 
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">137%</span> урона.
                 </p>
 
             </div>
@@ -819,7 +824,7 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атака по врагу</span>
                                 </p>
                             </td>
                             <td>
@@ -841,8 +846,8 @@
     
                 </div>
                 <p>
-                    При следующей атаке ударяет врага ножнами, нанося <span style="color: rgb(78, 196, 255);">320%</span> 
-                    физического урона и оглушая врага на <span style="color: rgb(78, 196, 255);">1.5</span> секунды. 
+                    Следующая атака ударит <span style="color: rgb(78, 196, 255);">3</span> раза, 
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">145%</span> урона.
                 </p>
 
             </div>
@@ -856,7 +861,7 @@
 
             <div style=" background-color: rgba(255, 0, 0, 0.4);">
                 <img src="pic/skill2.png" alt="" height="50px" style="display: inline-block">
-                <span class="skillTitle" style="margin-top:5%; margin-left: 7.5px;"> Crimson Firmament·Quick Draw</span>
+                <span class="skillTitle" style="margin-top: 5%; margin-left: 15px;"> Strafing Mode</span>
             </div>
 
             <H3 style="margin: 10px 0 0 10px;">Уровень</H3>
@@ -882,371 +887,7 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 27</p>
-                            </td>
-    
-                            <td>
-                                <p>Начальное SP: 10</p>
-                            </td>
-                        </tr>
-    
-                    </table>
-    
-                    <table id="skdit2" cellspacing="7px">
-    
-                        <tr>
-                            <td>
-                                <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Длительность: <span style="color: rgb(78, 196, 255);"> Мгновенное действие</span>
-                                </p>
-                            </td>
-                        </tr>
-    
-                        <tr>
-                            <td colspan="2">
-                                <p>
-                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
-                                </p>
-                            </td>
-                        </tr>
-    
-                    </table>
-    
-                </div>
-                <p>
-                    Наносит <span style="color: rgb(78, 196, 255);">330%</span> физического урона
-                     и <span style="color: rgb(78, 196, 255);">330%</span> магического урона
-                    по <span style="color: rgb(78, 196, 255);">4</span> или меньше врагам перед этим оперативником.
-                </p>
-
-            </div>
-
-            <div id="skill1dis2" class="skill1">
-
-                <div style="background-color:rgb(30, 30, 30);">
-    
-                    <table id="skdit" cellspacing="7px">
-    
-                        <tr>
-                            <td>
-                                <p>SP Стоимость: 27</p>
-                            </td>
-    
-                            <td>
-                                <p>Начальное SP: 10</p>
-                            </td>
-                        </tr>
-    
-                    </table>
-    
-                    <table id="skdit2" cellspacing="7px">
-    
-                        <tr>
-                            <td>
-                                <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Длительность: <span style="color: rgb(78, 196, 255);"> Мгновенное действие</span>
-                                </p>
-                            </td>
-                        </tr>
-    
-                        <tr>
-                            <td colspan="2">
-                                <p>
-                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
-                                </p>
-                            </td>
-                        </tr>
-    
-                    </table>
-    
-                </div>
-                <p>
-                    Наносит <span style="color: rgb(78, 196, 255);">340%</span> физического урона
-                     и <span style="color: rgb(78, 196, 255);">340%</span> магического урона
-                    по <span style="color: rgb(78, 196, 255);">4</span> или меньше врагам перед этим оперативником.
-                </p>
-
-            </div>
-
-            <div id="skill1dis3" class="skill1">
-
-                <div style="background-color:rgb(30, 30, 30);">
-    
-                    <table id="skdit" cellspacing="7px">
-    
-                        <tr>
-                            <td>
-                                <p>SP Стоимость: 27</p>
-                            </td>
-    
-                            <td>
-                                <p>Начальное SP: 10</p>
-                            </td>
-                        </tr>
-    
-                    </table>
-    
-                    <table id="skdit2" cellspacing="7px">
-    
-                        <tr>
-                            <td>
-                                <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Длительность: <span style="color: rgb(78, 196, 255);"> Мгновенное действие</span>
-                                </p>
-                            </td>
-                        </tr>
-    
-                        <tr>
-                            <td colspan="2">
-                                <p>
-                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
-                                </p>
-                            </td>
-                        </tr>
-    
-                    </table>
-    
-                </div>
-                <p>
-                    Наносит <span style="color: rgb(78, 196, 255);">350%</span> физического урона
-                     и <span style="color: rgb(78, 196, 255);">350%</span> магического урона
-                    по <span style="color: rgb(78, 196, 255);">4</span> или меньше врагам перед этим оперативником.
-                </p>
-
-            </div>
-
-            <div id="skill1dis4" class="skill1">
-
-                <div style="background-color:rgb(30, 30, 30);">
-    
-                    <table id="skdit" cellspacing="7px">
-    
-                        <tr>
-                            <td>
-                                <p>SP Стоимость: 26</p>
-                            </td>
-    
-                            <td>
-                                <p>Начальное SP: 12</p>
-                            </td>
-                        </tr>
-    
-                    </table>
-    
-                    <table id="skdit2" cellspacing="7px">
-    
-                        <tr>
-                            <td>
-                                <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Длительность: <span style="color: rgb(78, 196, 255);"> Мгновенное действие</span>
-                                </p>
-                            </td>
-                        </tr>
-    
-                        <tr>
-                            <td colspan="2">
-                                <p>
-                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
-                                </p>
-                            </td>
-                        </tr>
-    
-                    </table>
-    
-                </div>
-                <p>
-                    Наносит <span style="color: rgb(78, 196, 255);">370%</span> физического урона
-                     и <span style="color: rgb(78, 196, 255);">370%</span> магического урона
-                    по <span style="color: rgb(78, 196, 255);">5</span> или меньше врагам перед этим оперативником.
-                </p>
-
-            </div>
-
-            <div id="skill1dis5" class="skill1">
-
-                <div style="background-color:rgb(30, 30, 30);">
-    
-                    <table id="skdit" cellspacing="7px">
-    
-                        <tr>
-                            <td>
-                                <p>SP Стоимость: 26</p>
-                            </td>
-    
-                            <td>
-                                <p>Начальное SP: 12</p>
-                            </td>
-                        </tr>
-    
-                    </table>
-    
-                    <table id="skdit2" cellspacing="7px">
-    
-                        <tr>
-                            <td>
-                                <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Длительность: <span style="color: rgb(78, 196, 255);"> Мгновенное действие</span>
-                                </p>
-                            </td>
-                        </tr>
-    
-                        <tr>
-                            <td colspan="2">
-                                <p>
-                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
-                                </p>
-                            </td>
-                        </tr>
-    
-                    </table>
-    
-                </div>
-                <p>
-                    Наносит <span style="color: rgb(78, 196, 255);">380%</span> физического урона
-                     и <span style="color: rgb(78, 196, 255);">380%</span> магического урона
-                    по <span style="color: rgb(78, 196, 255);">5</span> или меньше врагам перед этим оперативником.
-                </p>
-
-            </div>
-
-            <div id="skill1dis6" class="skill1">
-
-                <div style="background-color:rgb(30, 30, 30);">
-    
-                    <table id="skdit" cellspacing="7px">
-    
-                        <tr>
-                            <td>
-                                <p>SP Стоимость: 26</p>
-                            </td>
-    
-                            <td>
-                                <p>Начальное SP: 12</p>
-                            </td>
-                        </tr>
-    
-                    </table>
-    
-                    <table id="skdit2" cellspacing="7px">
-    
-                        <tr>
-                            <td>
-                                <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Длительность: <span style="color: rgb(78, 196, 255);"> Мгновенное действие</span>
-                                </p>
-                            </td>
-                        </tr>
-    
-                        <tr>
-                            <td colspan="2">
-                                <p>
-                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
-                                </p>
-                            </td>
-                        </tr>
-    
-                    </table>
-    
-                </div>
-                <p>
-                    Наносит <span style="color: rgb(78, 196, 255);">390%</span> физического урона
-                     и <span style="color: rgb(78, 196, 255);">390%</span> магического урона
-                    по <span style="color: rgb(78, 196, 255);">5</span> или меньше врагам перед этим оперативником.
-                </p>
-
-            </div>
-
-            <div id="skill1dis7" class="skill1">
-
-                <div style="background-color:rgb(30, 30, 30);">
-    
-                    <table id="skdit" cellspacing="7px">
-    
-                        <tr>
-                            <td>
-                                <p>SP Стоимость: 25</p>
-                            </td>
-    
-                            <td>
-                                <p>Начальное SP: 14</p>
-                            </td>
-                        </tr>
-    
-                    </table>
-    
-                    <table id="skdit2" cellspacing="7px">
-    
-                        <tr>
-                            <td>
-                                <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Длительность: <span style="color: rgb(78, 196, 255);"> Мгновенное действие</span>
-                                </p>
-                            </td>
-                        </tr>
-    
-                        <tr>
-                            <td colspan="2">
-                                <p>
-                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
-                                </p>
-                            </td>
-                        </tr>
-    
-                    </table>
-    
-                </div>
-                <p>
-                    Наносит <span style="color: rgb(78, 196, 255);">410%</span> физического урона
-                     и <span style="color: rgb(78, 196, 255);">410%</span> магического урона
-                    по <span style="color: rgb(78, 196, 255);">6</span> или меньше врагам перед этим оперативником.
-                </p>
-
-            </div>
-
-            <div id="skill1dis8" class="skill1">
-
-                <div style="background-color:rgb(30, 30, 30);">
-    
-                    <table id="skdit" cellspacing="7px">
-    
-                        <tr>
-                            <td>
-                                <p>SP Стоимость: 23</p>
+                                <p>SP Стоимость: 45</p>
                             </td>
     
                             <td>
@@ -1261,12 +902,12 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Ежесекундно</span>
                                 </p>
                             </td>
                             <td>
                                 <p>
-                                    Длительность: <span style="color: rgb(78, 196, 255);"> Мгновенное действие</span>
+                                    Длительность: <span style="color: rgb(78, 196, 255);"> 15 секунд</span>
                                 </p>
                             </td>
                         </tr>
@@ -1283,14 +924,13 @@
     
                 </div>
                 <p>
-                    Наносит <span style="color: rgb(78, 196, 255);">440%</span> физического урона
-                     и <span style="color: rgb(78, 196, 255);">440%</span> магического урона
-                    по <span style="color: rgb(78, 196, 255);">6</span> или меньше врагам перед этим оперативником.
+                    Атаки наносят <span style="color: rgb(78, 196, 255);">4</span> удара, 
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">100%</span> урона.
                 </p>
 
             </div>
 
-            <div id="skill1dis9" class="skill1">
+            <div id="skill1dis2" class="skill1">
 
                 <div style="background-color:rgb(30, 30, 30);">
     
@@ -1298,11 +938,11 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 21</p>
+                                <p>SP Стоимость: 44</p>
                             </td>
     
                             <td>
-                                <p>Начальное SP: 16</p>
+                                <p>Начальное SP: 15</p>
                             </td>
                         </tr>
     
@@ -1313,12 +953,12 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Ежесекундно</span>
                                 </p>
                             </td>
                             <td>
                                 <p>
-                                    Длительность: <span style="color: rgb(78, 196, 255);"> Мгновенное действие</span>
+                                    Длительность: <span style="color: rgb(78, 196, 255);"> 15 секунд</span>
                                 </p>
                             </td>
                         </tr>
@@ -1335,14 +975,13 @@
     
                 </div>
                 <p>
-                    Наносит <span style="color: rgb(78, 196, 255);">470%</span> физического урона
-                     и <span style="color: rgb(78, 196, 255);">470%</span> магического урона
-                    по <span style="color: rgb(78, 196, 255);">6</span> или меньше врагам перед этим оперативником.
+                    Атаки наносят <span style="color: rgb(78, 196, 255);">4</span> удара, 
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">100%</span> урона.
                 </p>
 
             </div>
 
-            <div id="skill1dis10" class="skill1">
+            <div id="skill1dis3" class="skill1">
 
                 <div style="background-color:rgb(30, 30, 30);">
     
@@ -1350,7 +989,262 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 20</p>
+                                <p>SP Стоимость: 43</p>
+                            </td>
+    
+                            <td>
+                                <p>Начальное SP: 15</p>
+                            </td>
+                        </tr>
+    
+                    </table>
+    
+                    <table id="skdit2" cellspacing="7px">
+    
+                        <tr>
+                            <td>
+                                <p>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Ежесекундно</span>
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Длительность: <span style="color: rgb(78, 196, 255);"> 15 секунд</span>
+                                </p>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td colspan="2">
+                                <p>
+                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
+                                </p>
+                            </td>
+                        </tr>
+    
+                    </table>
+    
+                </div>
+                <p>
+                    Атаки наносят <span style="color: rgb(78, 196, 255);">4</span> удара, 
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">100%</span> урона.
+                </p>
+
+            </div>
+
+            <div id="skill1dis4" class="skill1">
+
+                <div style="background-color:rgb(30, 30, 30);">
+    
+                    <table id="skdit" cellspacing="7px">
+    
+                        <tr>
+                            <td>
+                                <p>SP Стоимость: 42</p>
+                            </td>
+    
+                            <td>
+                                <p>Начальное SP: 15</p>
+                            </td>
+                        </tr>
+    
+                    </table>
+    
+                    <table id="skdit2" cellspacing="7px">
+    
+                        <tr>
+                            <td>
+                                <p>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Ежесекундно</span>
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Длительность: <span style="color: rgb(78, 196, 255);"> 15 секунд</span>
+                                </p>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td colspan="2">
+                                <p>
+                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
+                                </p>
+                            </td>
+                        </tr>
+    
+                    </table>
+    
+                </div>
+                <p>
+                    Атаки наносят <span style="color: rgb(78, 196, 255);">4</span> удара, 
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">105%</span> урона.
+                </p>
+
+            </div>
+
+            <div id="skill1dis5" class="skill1">
+
+                <div style="background-color:rgb(30, 30, 30);">
+    
+                    <table id="skdit" cellspacing="7px">
+    
+                        <tr>
+                            <td>
+                                <p>SP Стоимость: 41</p>
+                            </td>
+    
+                            <td>
+                                <p>Начальное SP: 15</p>
+                            </td>
+                        </tr>
+    
+                    </table>
+    
+                    <table id="skdit2" cellspacing="7px">
+    
+                        <tr>
+                            <td>
+                                <p>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Ежесекундно</span>
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Длительность: <span style="color: rgb(78, 196, 255);"> 15 секунд</span>
+                                </p>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td colspan="2">
+                                <p>
+                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
+                                </p>
+                            </td>
+                        </tr>
+    
+                    </table>
+    
+                </div>
+                <p>
+                    Атаки наносят <span style="color: rgb(78, 196, 255);">4</span> удара, 
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">105%</span> урона.
+                </p>
+
+            </div>
+
+            <div id="skill1dis6" class="skill1">
+
+                <div style="background-color:rgb(30, 30, 30);">
+    
+                    <table id="skdit" cellspacing="7px">
+    
+                        <tr>
+                            <td>
+                                <p>SP Стоимость: 40</p>
+                            </td>
+    
+                            <td>
+                                <p>Начальное SP: 15</p>
+                            </td>
+                        </tr>
+    
+                    </table>
+    
+                    <table id="skdit2" cellspacing="7px">
+    
+                        <tr>
+                            <td>
+                                <p>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Ежесекундно</span>
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Длительность: <span style="color: rgb(78, 196, 255);"> 15 секунд</span>
+                                </p>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td colspan="2">
+                                <p>
+                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
+                                </p>
+                            </td>
+                        </tr>
+    
+                    </table>
+    
+                </div>
+                <p>
+                    Атаки наносят <span style="color: rgb(78, 196, 255);">4</span> удара, 
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">105%</span> урона.
+                </p>
+
+            </div>
+
+            <div id="skill1dis7" class="skill1">
+
+                <div style="background-color:rgb(30, 30, 30);">
+    
+                    <table id="skdit" cellspacing="7px">
+    
+                        <tr>
+                            <td>
+                                <p>SP Стоимость: 39</p>
+                            </td>
+    
+                            <td>
+                                <p>Начальное SP: 18</p>
+                            </td>
+                        </tr>
+    
+                    </table>
+    
+                    <table id="skdit2" cellspacing="7px">
+    
+                        <tr>
+                            <td>
+                                <p>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Ежесекундно</span>
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Длительность: <span style="color: rgb(78, 196, 255);"> 15 секунд</span>
+                                </p>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td colspan="2">
+                                <p>
+                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
+                                </p>
+                            </td>
+                        </tr>
+    
+                    </table>
+    
+                </div>
+                <p>
+                    Атаки наносят <span style="color: rgb(78, 196, 255);">4</span> удара, 
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">110%</span> урона.
+                </p>
+
+            </div>
+
+            <div id="skill1dis8" class="skill1">
+
+                <div style="background-color:rgb(30, 30, 30);">
+    
+                    <table id="skdit" cellspacing="7px">
+    
+                        <tr>
+                            <td>
+                                <p>SP Стоимость: 38</p>
                             </td>
     
                             <td>
@@ -1365,12 +1259,12 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Ежесекундно</span>
                                 </p>
                             </td>
                             <td>
                                 <p>
-                                    Длительность: <span style="color: rgb(78, 196, 255);"> Мгновенное действие</span>
+                                    Длительность: <span style="color: rgb(78, 196, 255);"> 15 секунд</span>
                                 </p>
                             </td>
                         </tr>
@@ -1387,27 +1281,123 @@
     
                 </div>
                 <p>
-                    Наносит <span style="color: rgb(78, 196, 255);">500%</span> физического урона
-                     и <span style="color: rgb(78, 196, 255);">500%</span> магического урона
-                    по <span style="color: rgb(78, 196, 255);">7</span> или меньше врагам перед этим оперативником.
+                    Атаки наносят <span style="color: rgb(78, 196, 255);">4</span> удара, 
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">115%</span> урона.
                 </p>
 
             </div>
 
-            <div>
-                <h3 style="text-align: center; background-color: rgba(78, 196, 255,0.6); margin-bottom: 0; color: white;">Радиус:</h3>
+            <div id="skill1dis9" class="skill1">
 
-                <img src="pic/rad2.png" alt="" height="80px" style="display: block; margin-left: auto; margin-right: auto; margin-top: 2%;">
+                <div style="background-color:rgb(30, 30, 30);">
+    
+                    <table id="skdit" cellspacing="7px">
+    
+                        <tr>
+                            <td>
+                                <p>SP Стоимость: 37</p>
+                            </td>
+    
+                            <td>
+                                <p>Начальное SP: 22</p>
+                            </td>
+                        </tr>
+    
+                    </table>
+    
+                    <table id="skdit2" cellspacing="7px">
+    
+                        <tr>
+                            <td>
+                                <p>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Ежесекундно</span>
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Длительность: <span style="color: rgb(78, 196, 255);"> 15 секунд</span>
+                                </p>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td colspan="2">
+                                <p>
+                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
+                                </p>
+                            </td>
+                        </tr>
+    
+                    </table>
+    
+                </div>
+                <p>
+                    Атаки наносят <span style="color: rgb(78, 196, 255);">4</span> удара, 
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">120%</span> урона.
+                </p>
+
             </div>
 
-        
+            <div id="skill1dis10" class="skill1">
+
+                <div style="background-color:rgb(30, 30, 30);">
+    
+                    <table id="skdit" cellspacing="7px">
+    
+                        <tr>
+                            <td>
+                                <p>SP Стоимость: 35</p>
+                            </td>
+    
+                            <td>
+                                <p>Начальное SP: 25</p>
+                            </td>
+                        </tr>
+    
+                    </table>
+    
+                    <table id="skdit2" cellspacing="7px">
+    
+                        <tr>
+                            <td>
+                                <p>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Ежесекундно</span>
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Длительность: <span style="color: rgb(78, 196, 255);"> 15 секунд</span>
+                                </p>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td colspan="2">
+                                <p>
+                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
+                                </p>
+                            </td>
+                        </tr>
+    
+                    </table>
+    
+                </div>
+                <p>
+                    Атаки наносят <span style="color: rgb(78, 196, 255);">4</span> удара, 
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">125%</span> урона.
+                </p>
+
+            </div>
+
+            
+
         </div>
 
         <div class="skillDis">
 
             <div style=" background-color: rgba(255, 0, 0, 0.4);">
                 <img src="pic/skill3.png" alt="" height="50px" style="display: inline-block">
-                <span class="skillTitle" style="margin-top: 2%; margin-left: 15px;"> Crimson Firmament·Shadow Assault</span>
+                <span class="skillTitle" style="margin-top: 5%; margin-left: 15px;"> Overload Mode</span>
             </div>
 
             <H3 style="margin: 10px 0 0 10px;">Уровень</H3>
@@ -1433,11 +1423,11 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 40</p>
+                                <p>SP Стоимость: 50</p>
                             </td>
     
                             <td>
-                                <p>Начальное SP: 10</p>
+                                <p>Начальное SP: 20</p>
                             </td>
                         </tr>
     
@@ -1448,12 +1438,12 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Ежесекундно</span>
                                 </p>
                             </td>
                             <td>
                                 <p>
-                                    Длительность: <span style="color: rgb(78, 196, 255);"> Мгновенное действие</span>
+                                    Длительность: <span style="color: rgb(78, 196, 255);"> 15 секунд</span>
                                 </p>
                             </td>
                         </tr>
@@ -1461,7 +1451,7 @@
                         <tr>
                             <td colspan="2">
                                 <p>
-                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
+                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Автоматический</span>
                                 </p>
                             </td>
                         </tr>
@@ -1470,9 +1460,8 @@
     
                 </div>
                 <p>
-                    Ищет ближайших к себе врагов и наносит <span style="color: rgb(78, 196, 255);">10</span> последовательных разрезов,
-                    каждой атакой нанося <span style="color: rgb(78, 196, 255);">200%</span> физического урона
-                    и оглушая врага на <span style="color: rgb(78, 196, 255);">2</span> секунды последним ударом.
+                    Атаки наносят <span style="color: rgb(78, 196, 255);">5</span> ударов.
+                    Автоматическая активация.
                 </p>
 
             </div>
@@ -1485,11 +1474,11 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 40</p>
+                                <p>SP Стоимость: 48</p>
                             </td>
     
                             <td>
-                                <p>Начальное SP: 10</p>
+                                <p>Начальное SP: 20</p>
                             </td>
                         </tr>
     
@@ -1500,12 +1489,12 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Ежесекундно</span>
                                 </p>
                             </td>
                             <td>
                                 <p>
-                                    Длительность: <span style="color: rgb(78, 196, 255);"> Мгновенное действие</span>
+                                    Длительность: <span style="color: rgb(78, 196, 255);"> 15 секунд</span>
                                 </p>
                             </td>
                         </tr>
@@ -1513,7 +1502,7 @@
                         <tr>
                             <td colspan="2">
                                 <p>
-                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
+                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Автоматический</span>
                                 </p>
                             </td>
                         </tr>
@@ -1522,9 +1511,8 @@
     
                 </div>
                 <p>
-                    Ищет ближайших к себе врагов и наносит <span style="color: rgb(78, 196, 255);">10</span> последовательных разрезов,
-                    каждой атакой нанося <span style="color: rgb(78, 196, 255);">210%</span> физического урона
-                    и оглушая врага на <span style="color: rgb(78, 196, 255);">2</span> секунды последним ударом.
+                    Атаки наносят <span style="color: rgb(78, 196, 255);">5</span> ударов.
+                    Автоматическая активация.
                 </p>
 
             </div>
@@ -1537,11 +1525,11 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 40</p>
+                                <p>SP Стоимость: 46</p>
                             </td>
     
                             <td>
-                                <p>Начальное SP: 10</p>
+                                <p>Начальное SP: 20</p>
                             </td>
                         </tr>
     
@@ -1552,12 +1540,12 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Ежесекундно</span>
                                 </p>
                             </td>
                             <td>
                                 <p>
-                                    Длительность: <span style="color: rgb(78, 196, 255);"> Мгновенное действие</span>
+                                    Длительность: <span style="color: rgb(78, 196, 255);"> 15 секунд</span>
                                 </p>
                             </td>
                         </tr>
@@ -1565,7 +1553,7 @@
                         <tr>
                             <td colspan="2">
                                 <p>
-                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
+                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Автоматический</span>
                                 </p>
                             </td>
                         </tr>
@@ -1574,9 +1562,8 @@
     
                 </div>
                 <p>
-                    Ищет ближайших к себе врагов и наносит <span style="color: rgb(78, 196, 255);">10</span> последовательных разрезов,
-                    каждой атакой нанося <span style="color: rgb(78, 196, 255);">220%</span> физического урона
-                    и оглушая врага на <span style="color: rgb(78, 196, 255);">2</span> секунды последним ударом.
+                    Атаки наносят <span style="color: rgb(78, 196, 255);">5</span> ударов.
+                    Автоматическая активация.
                 </p>
 
             </div>
@@ -1589,11 +1576,11 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 38</p>
+                                <p>SP Стоимость: 44</p>
                             </td>
     
                             <td>
-                                <p>Начальное SP: 10</p>
+                                <p>Начальное SP: 20</p>
                             </td>
                         </tr>
     
@@ -1604,12 +1591,12 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Ежесекундно</span>
                                 </p>
                             </td>
                             <td>
                                 <p>
-                                    Длительность: <span style="color: rgb(78, 196, 255);"> Мгновенное действие</span>
+                                    Длительность: <span style="color: rgb(78, 196, 255);"> 15 секунд</span>
                                 </p>
                             </td>
                         </tr>
@@ -1617,7 +1604,7 @@
                         <tr>
                             <td colspan="2">
                                 <p>
-                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
+                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Автоматический</span>
                                 </p>
                             </td>
                         </tr>
@@ -1626,9 +1613,9 @@
     
                 </div>
                 <p>
-                    Ищет ближайших к себе врагов и наносит <span style="color: rgb(78, 196, 255);">10</span> последовательных разрезов,
-                    каждой атакой нанося <span style="color: rgb(78, 196, 255);">230%</span> физического урона
-                    и оглушая врага на <span style="color: rgb(78, 196, 255);">2.5</span> секунды последним ударом.
+                    Атаки наносят <span style="color: rgb(78, 196, 255);">5</span> ударов,
+                    немного уменьшается интервал атак (<span style="color: rgb(78, 196, 255);">-0.1</span> секунды).
+                    Автоматическая активация.
                 </p>
 
             </div>
@@ -1641,11 +1628,11 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 38</p>
+                                <p>SP Стоимость: 42</p>
                             </td>
     
                             <td>
-                                <p>Начальное SP: 10</p>
+                                <p>Начальное SP: 20</p>
                             </td>
                         </tr>
     
@@ -1656,12 +1643,12 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Ежесекундно</span>
                                 </p>
                             </td>
                             <td>
                                 <p>
-                                    Длительность: <span style="color: rgb(78, 196, 255);"> Мгновенное действие</span>
+                                    Длительность: <span style="color: rgb(78, 196, 255);"> 15 секунд</span>
                                 </p>
                             </td>
                         </tr>
@@ -1669,7 +1656,7 @@
                         <tr>
                             <td colspan="2">
                                 <p>
-                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
+                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Автоматический</span>
                                 </p>
                             </td>
                         </tr>
@@ -1678,9 +1665,9 @@
     
                 </div>
                 <p>
-                    Ищет ближайших к себе врагов и наносит <span style="color: rgb(78, 196, 255);">10</span> последовательных разрезов,
-                    каждой атакой нанося <span style="color: rgb(78, 196, 255);">240%</span> физического урона
-                    и оглушая врага на <span style="color: rgb(78, 196, 255);">2.5</span> секунды последним ударом.
+                    Атаки наносят <span style="color: rgb(78, 196, 255);">5</span> ударов,
+                    немного уменьшается интервал атак (<span style="color: rgb(78, 196, 255);">-0.1</span> секунды).
+                    Автоматическая активация.
                 </p>
 
             </div>
@@ -1693,11 +1680,11 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 38</p>
+                                <p>SP Стоимость: 40</p>
                             </td>
     
                             <td>
-                                <p>Начальное SP: 10</p>
+                                <p>Начальное SP: 20</p>
                             </td>
                         </tr>
     
@@ -1708,12 +1695,12 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Ежесекундно</span>
                                 </p>
                             </td>
                             <td>
                                 <p>
-                                    Длительность: <span style="color: rgb(78, 196, 255);"> Мгновенное действие</span>
+                                    Длительность: <span style="color: rgb(78, 196, 255);"> 15 секунд</span>
                                 </p>
                             </td>
                         </tr>
@@ -1721,7 +1708,7 @@
                         <tr>
                             <td colspan="2">
                                 <p>
-                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
+                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Автоматический</span>
                                 </p>
                             </td>
                         </tr>
@@ -1730,10 +1717,11 @@
     
                 </div>
                 <p>
-                    Ищет ближайших к себе врагов и наносит <span style="color: rgb(78, 196, 255);">10</span> последовательных разрезов,
-                    каждой атакой нанося <span style="color: rgb(78, 196, 255);">250%</span> физического урона
-                    и оглушая врага на <span style="color: rgb(78, 196, 255);">2.5</span> секунды последним ударом.
+                    Атаки наносят <span style="color: rgb(78, 196, 255);">5</span> ударов,
+                    немного уменьшается интервал атак (<span style="color: rgb(78, 196, 255);">-0.1</span> секунды).
+                    Автоматическая активация.
                 </p>
+
             </div>
 
             <div id="skill2dis7" class="skill2">
@@ -1744,11 +1732,11 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 36</p>
+                                <p>SP Стоимость: 38</p>
                             </td>
     
                             <td>
-                                <p>Начальное SP: 10</p>
+                                <p>Начальное SP: 20</p>
                             </td>
                         </tr>
     
@@ -1759,12 +1747,12 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Ежесекундно</span>
                                 </p>
                             </td>
                             <td>
                                 <p>
-                                    Длительность: <span style="color: rgb(78, 196, 255);"> Мгновенное действие</span>
+                                    Длительность: <span style="color: rgb(78, 196, 255);"> 15 секунд</span>
                                 </p>
                             </td>
                         </tr>
@@ -1772,7 +1760,7 @@
                         <tr>
                             <td colspan="2">
                                 <p>
-                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
+                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Автоматический</span>
                                 </p>
                             </td>
                         </tr>
@@ -1781,9 +1769,9 @@
     
                 </div>
                 <p>
-                    Ищет ближайших к себе врагов и наносит <span style="color: rgb(78, 196, 255);">10</span> последовательных разрезов,
-                    каждой атакой нанося <span style="color: rgb(78, 196, 255);">260%</span> физического урона
-                    и оглушая врага на <span style="color: rgb(78, 196, 255);">3</span> секунды последним ударом.
+                    Атаки наносят <span style="color: rgb(78, 196, 255);">5</span> ударов,
+                    уменьшается интервал атак (<span style="color: rgb(78, 196, 255);">-0.16</span> секунды).
+                    Автоматическая активация.
                 </p>
 
             </div>
@@ -1796,11 +1784,11 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 34</p>
+                                <p>SP Стоимость: 36</p>
                             </td>
     
                             <td>
-                                <p>Начальное SP: 13</p>
+                                <p>Начальное SP: 20</p>
                             </td>
                         </tr>
     
@@ -1811,12 +1799,12 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Ежесекундно</span>
                                 </p>
                             </td>
                             <td>
                                 <p>
-                                    Длительность: <span style="color: rgb(78, 196, 255);"> Мгновенное действие</span>
+                                    Длительность: <span style="color: rgb(78, 196, 255);"> 15 секунд</span>
                                 </p>
                             </td>
                         </tr>
@@ -1824,7 +1812,7 @@
                         <tr>
                             <td colspan="2">
                                 <p>
-                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
+                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Автоматический</span>
                                 </p>
                             </td>
                         </tr>
@@ -1833,9 +1821,10 @@
     
                 </div>
                 <p>
-                    Ищет ближайших к себе врагов и наносит <span style="color: rgb(78, 196, 255);">10</span> последовательных разрезов,
-                    каждой атакой нанося <span style="color: rgb(78, 196, 255);">280%</span> физического урона
-                    и оглушая врага на <span style="color: rgb(78, 196, 255);">3</span> секунды последним ударом.
+                    Атаки наносят <span style="color: rgb(78, 196, 255);">5</span> ударов,
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">103%</span> урона. 
+                    Уменьшается интервал атак (<span style="color: rgb(78, 196, 255);">-0.16</span> секунды).
+                    Автоматическая активация.
                 </p>
 
             </div>
@@ -1848,11 +1837,11 @@
     
                         <tr>
                             <td>
-                                <p>SP Стоимость: 32</p>
+                                <p>SP Стоимость: 34</p>
                             </td>
     
                             <td>
-                                <p>Начальное SP: 16</p>
+                                <p>Начальное SP: 20</p>
                             </td>
                         </tr>
     
@@ -1863,12 +1852,12 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Ежесекундно</span>
                                 </p>
                             </td>
                             <td>
                                 <p>
-                                    Длительность: <span style="color: rgb(78, 196, 255);"> Мгновенное действие</span>
+                                    Длительность: <span style="color: rgb(78, 196, 255);"> 15 секунд</span>
                                 </p>
                             </td>
                         </tr>
@@ -1876,7 +1865,7 @@
                         <tr>
                             <td colspan="2">
                                 <p>
-                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
+                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Автоматический</span>
                                 </p>
                             </td>
                         </tr>
@@ -1885,9 +1874,10 @@
     
                 </div>
                 <p>
-                    Ищет ближайших к себе врагов и наносит <span style="color: rgb(78, 196, 255);">10</span> последовательных разрезов,
-                    каждой атакой нанося <span style="color: rgb(78, 196, 255);">300%</span> физического урона
-                    и оглушая врага на <span style="color: rgb(78, 196, 255);">3</span> секунды последним ударом.
+                    Атаки наносят <span style="color: rgb(78, 196, 255);">5</span> ударов,
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">107%</span> урона. 
+                    Уменьшается интервал атак (<span style="color: rgb(78, 196, 255);">-0.16</span> секунды).
+                    Автоматическая активация.
                 </p>
 
             </div>
@@ -1915,12 +1905,12 @@
                         <tr>
                             <td>
                                 <p>
-                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Атакуя по врагу</span>
+                                    Тип зарядки SP: <span style="color: rgb(78, 196, 255);"> Ежесекундно</span>
                                 </p>
                             </td>
                             <td>
                                 <p>
-                                    Длительность: <span style="color: rgb(78, 196, 255);"> Мгновенное действие</span>
+                                    Длительность: <span style="color: rgb(78, 196, 255);"> 15 секунд</span>
                                 </p>
                             </td>
                         </tr>
@@ -1928,7 +1918,7 @@
                         <tr>
                             <td colspan="2">
                                 <p>
-                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Вручную</span>
+                                    Тип активации скилла: <span style="color: rgb(78, 196, 255);"> Автоматический</span>
                                 </p>
                             </td>
                         </tr>
@@ -1937,17 +1927,12 @@
     
                 </div>
                 <p>
-                    Ищет ближайших к себе врагов и наносит <span style="color: rgb(78, 196, 255);">10</span> последовательных разрезов,
-                    каждой атакой нанося <span style="color: rgb(78, 196, 255);">320%</span> физического урона
-                    и оглушая врага на <span style="color: rgb(78, 196, 255);">4</span> секунды последним ударом.
+                    Атаки наносят <span style="color: rgb(78, 196, 255);">5</span> ударов,
+                    при этом каждый удар наносит <span style="color: rgb(78, 196, 255);">110%</span> урона. 
+                    Уменьшается интервал атак до некоторой степени (<span style="color: rgb(78, 196, 255);">-0.22</span> секунды).
+                    Автоматическая активация.
                 </p>
 
-            </div>
-
-            <div>
-                <h3 style="text-align: center; background-color: rgba(78, 196, 255,0.6); margin-bottom: 0; color: white;">Радиус:</h3>
-
-                <img src="pic/rad3.png" alt="" height="132px" style="display: block; margin-left: auto; margin-right: auto; margin-top: 2%;">
             </div>
 
             
@@ -1956,19 +1941,19 @@
 
         <h2>RIIC Скиллы:</h2>
         <div class="RIIC">            
-            <h4> <img src="pic/RIIC1.png" alt="" style="vertical-align: middle;">  Ability & Integrity </h4>
-            <p>
-                При размещении в <span style="color: skyblue;">Коммандном центре</span>, за каждого оперативника из Lungmen Guard Bureau в Коммандном центре, 
-                снижение настроения оперативников в Коммандном центре <span style="color: skyblue;">-0.05</span> в час.
+            <h4> <img src="pic/RIIC1.png" alt="" style="vertical-align: middle;">  Penguin Logistics·α </h4>
+            <p style="padding: 0 15px 0 15px;">
+                При размещении в <span style="color: skyblue;">Торговом пункте</span> скорость получения 
+                заказов <span style="color: skyblue;">+20%</span>
             </p>
 
         </div>
 
         <div class="RIIC">
-            <h4> <img src="pic/RIIC2.png" alt="" style="vertical-align: middle;">  Superintendent </h4>
-            <p>
-                При размещении в <span style="color: skyblue;">Приёмной</span> скорость сбора 
-                улик <span style="color: skyblue;">+25%</span>
+            <h4> <img src="pic/RIIC2.png" alt="" style="vertical-align: middle;">  Logistics Expert</h4>
+            <p style="padding: 0 15px 0 15px;">
+                При размещении в <span style="color: skyblue;">Торговом пункте</span> скорость получения 
+                заказов <span style="color: skyblue;">+35%</span>
             </p>
             
 
@@ -1978,45 +1963,59 @@
 
         <div class="talent">
             <p>
-                Berate Lv:1 <img src="../pic/elite1.png" height="17px">
+                Rapid Magazine Lv:1 <img src="../pic/elite1.png" height="17px">
             </p>
             <p>
-                При размещении, восстанавливает <span style="color: skyblue;">1</span> [Атакуя/Получая удар] SP всем союзникам 
-                каждые <span style="color: skyblue;">5</span> секунд
+                Скорость атаки <span style="color: skyblue;">+6</span>
             </p>
         </div>
         
+        <div class="talent">
+            <p>
+                Rapid Magazine Lv:1 <img src="../pic/elite1.png" height="17px"> <img src="../pic/pot4.png" height="17px" style="margin-bottom: -2px;">
+            </p>
+            <p>
+                Скорость атаки <span style="color: skyblue;">+9 (+3)</span>
+            </p>
+        </div>
 
         <div class="talent">
             <p>
-                Berate Lv:1 <img src="../pic/elite2.png" height="17px">
+                Rapid Magazine Lv:1 <img src="../pic/elite2.png" height="17px">
             </p>
             <p>
-                При размещении, восстанавливает <span style="color: skyblue;">1</span> [Атакуя/Получая удар] SP всем союзникам 
-                каждые <span style="color: skyblue;">4</span> секунды </p>
+                Скорость атаки <span style="color: skyblue;">+12</span>
+            </p>
         </div>
 
+        <div class="talent">
+            <p>
+                Rapid Magazine Lv:1 <img src="../pic/elite2.png" height="17px"> <img src="../pic/pot4.png" height="17px" style="margin-bottom: -2px;">
+            </p>
+            <p>
+                Скорость атаки <span style="color: skyblue;">+15 (+3)</span>
+            </p>
+        </div>
 
         <div class="talent second">
             <p>
-                Swordplay Lv:1 <img src="../pic/elite2.png" height="17px">
+                Angel's Blessings Lv:1 <img src="../pic/elite2.png" height="17px">
             </p>
             <p>
-                Сила Атаки <span style="color: skyblue;">+5%</span>, Физ. Защита <span style="color: skyblue;">+5%</span>, 
-                Физ. Уклонение <span style="color: skyblue;">+10%</span>
+                Атака <span style="color: skyblue;">+6%</span>, Макс НР <span style="color: skyblue;">+10%</span>.
+                При размещении даёт такие же эффекты случайному союзнику.
             </p>
         </div>
 
         <div class="talent second">
             <p>
-                Swordplay Lv:1 <img src="../pic/elite2.png" height="17px"> <img src="../pic/pot4.png" height="17px" style="margin-bottom: -2px;">
+                Angel's Blessings Lv:1 <img src="../pic/elite2.png" height="17px"> <img src="../pic/pot5.png" height="17px" style="margin-bottom: -2px;">
             </p>
             <p>
-                Сила Атаки <span style="color: skyblue;">+6% (+1%)</span>, Физ. Защита <span style="color: skyblue;">+6% (+1%)</span>, 
-                Физ. Уклонение <span style="color: skyblue;">+13% (+3%)</span>
+                Атака <span style="color: skyblue;">+8% (+2%)</span>, Макс НР <span style="color: skyblue;">+13% (+3%)</span>.
+                При размещении даёт такие же эффекты случайному союзнику.
             </p>
         </div>
-
 
     </div>
 
@@ -2035,19 +2034,17 @@
             <div class="part3">
                 <h3>Рекрутинговый контракт</h3>
                 <p style="margin-left: 5px; margin-right: 5px;">
-                    Она ужасает, когда в ярости, но вы не захотите с ней шутить, даже если она спокойна. <br>
+                    Ей действительно можно доверить любой груз? <br>
                     <br>
-                    Ch'en, начальница Специального инспекционного отдела L.G.D., сотрудничает 
-                    с Rhodes Island для выполнения обязательств, изложенных в её контракте.</p>
+                    Exusiai, сотрудница Penguin Logistics, очистит всё на своем пути, используя свое оружие.</p>
             </div>
 
             <div class="part4">
                 <h3>Токен</h3>
-                <p style="margin-left: 5px; margin-right: 5px; padding-bottom: 0;">
-                    Эта вещь уже давно остается нетронутой. Она не забыла. Просто ей невыносимо снова прикасаться к этому ржавому острию. 
-                    Возможно, когда-нибудь оно снова воспылает. <br>
+                <p style="margin-left: 5px; margin-right: 5px;">
+                    Медаль Лучшего Босса. Соберите пять таких, чтобы обменять их на медаль Супер-Босса. <br>
                     <br>
-                    Используется для улучшения Потенциала Ch'en.</p>
+                    Используется для улучшения Потенциала Exusiai.</p>
             </div>
 
             <div class="part1">
@@ -2061,7 +2058,7 @@
                         </tr>
                         <tr>
                             <td>Позывной: </td>
-                            <td>Ch'en</td>
+                            <td>Exusiai</td>
                         </tr>
                         <tr>
                             <td>Пол: </td>
@@ -2069,31 +2066,31 @@
                         </tr>
                         <tr>
                             <td>Класс: </td>
-                            <td>Guard</td>
+                            <td>Sniper</td>
                         </tr>
                         <tr>
                             <td>Боевой опыт: </td>
-                            <td>4 года</td>
+                            <td>2 года</td>
                         </tr>
                         <tr >
                             <td>Место рождения: </td>
-                            <td><a href="">Lungmen</a></td>
+                            <td><a href="">Laterano</a></td>
                         </tr>
                         <tr>
                             <td>Дата рождения: </td>
-                            <td>7 Июля</td>
+                            <td>25 Августа</td>
                         </tr>
                         <tr>
                             <td>Раса: </td>
-                            <td><a href="">Lung</a></td>
+                            <td><a href="">Sankta</a></td>
                         </tr>
                         <tr>
                             <td>Рост: </td>
-                            <td>168 см</td>
+                            <td>159 см</td>
                         </tr>
                         <tr>
                             <td style="border-bottom: none;">Статус заражения: </td>
-                            <td style="border-bottom: none;">Неизвестен</td>
+                            <td style="border-bottom: none;">Не заражена</td>
                         </tr>
                     </tbody>
                     </tbody>
@@ -2112,15 +2109,15 @@
                     </tr>
                     <tr>
                         <td>Физическая сила: </td>
-                        <td>Отличная</td>
-                    </tr>
-                    <tr>
-                        <td>Мобильность: </td>
                         <td>Стандартная</td>
                     </tr>
                     <tr>
+                        <td>Мобильность: </td>
+                        <td>Отличная</td>
+                    </tr>
+                    <tr>
                         <td>Сопротивление &nbsp;&nbsp; <br> физическим атакам:</td>
-                        <td>Отличное</td>
+                        <td>Стандартное</td>
                     </tr>
                     <tr>
                         <td>Тактическое мышление: </td>
@@ -2128,7 +2125,7 @@
                     </tr>
                     <tr>
                         <td>Боевые навыки: </td>
-                        <td>Выдающиеся</td>
+                        <td>Отличные</td>
                     </tr>
                     <tr>
                         <td style="border-bottom: none;">Усвоение Ориджиниума: </td>
@@ -2144,169 +2141,94 @@
         <h2>Краткая Биография</h2>
 
         <p> 
-            Ch'en, начальница Специального инспекционного отдела Гвардейского Департамента Люнгмена, окончила Королевскую гвардейсую школу 
-            Виктории с отличными оценками и выдающимися достижениями. Во время работы в Департаменте она раскрывала преступления, боролась с 
-            насильственными преступлениями, выслеживала вооруженных беглецов и устраняла международных преступников.
-            <br>
-            Сейчас работает на Rhodes Island, обеспечивая штабное тактическое командование.
+            Exusiai является гражданином Латерано и, как таковая, имеет право на привилегии, перечисленные в пунктах 1-13 Конституции Латерано. 
+            Она является сотрудником Пингвин Логистикс, которая специализируется на тайном сообщении, 
+            вооруженном сопровождении и других видах деятельности под прикрытием. Мы подозреваем, что она является Посланником. 
+            В то время как она работает по контракту с компанией Penguin Logistics, она служит связующим звеном на Rhodes Island, помогая нам в наших операциях. 
         </p>
 
         <h2>Клинический анализ</h2>
         <p>Требуется <span class="sky">уровень доверия: 25%</span></p>
         <p>
-            [По просьбе L.G.D. эта информация не будет обнародована].
-            <br>
-            Она действительно пришла на медосмотр, но его результаты были конфискованы. У меня нет возможности получить их. Почему? 
-            Мне сказали не делать этого.
-            <br>
-            <p style="font-weight: bold;">-Оперативник-медик R.Т.</p>
+            Обследование показывает четкие, нормальные очертания внутренних органов, и никаких аномальных теней обнаружено не было. 
+            Частицы Ориджиниума не были обнаружены в системе кровообращения и нет никаких признаков инфекции. В настоящее время считается, 
+            что оперативник не заражен.
         </p>
+         
+            <p> 
+                [Поглощение клеток Ориджиниумом] 0%
+                <br>
+                Оперативник Exusiai не проявила никаких признаков Орипатии.
+            </p>  
+            <p> 
+                [Плотность кристалов Ориджиниума в крови] 0.12u/L 
+                <br>
+                Exusiai иногда доставляет посылки, содержащие Ориджиниум, но на данный момент, это не привело к заражению.
+            </p>
 
         <h2>Архивные записи</h2>
         <h3>Архивная запись 1 </h3>
         <p>Требуется <span class="sky">уровень доверия: 50%</span></p>
         <br>
         <p> 
-            [Обзор касаемо Ориджиниума]
+            Она отличается от большинства латеранцев тем, что является безоговорочным оптимистом. 
             <br> 
-            Ch'en никогда не использовала Ориджиниум, что заставило многих подозревать, что у неё нет таланта к этому. Действительно, она с трудом 
-            контролировала свои способности управления Ориджиниумом, проделывая время от времени дырки в стене, раскидывая повсюду документы и нанося 
-            больше побочного ущерба, чем это могло бы быть приемлемо. Длительное использование Ориджиниума выматывает её. После обсуждения с техническим 
-            персоналом было решено, что Ch'en не хватает нужного проводника для контроля над Ориджиниумом. Без него Ch'en никогда не сможет овладеть магией.
-            <br>
-            <br>
-            Я видел результаты её тестов. Чем тоньше посох, тем лучше её ассимиляция. Но в чём смысл? Быть может, если бы у неё было что-то в форме меча, 
-            это могло бы сработать. Но кто захочет использовать его для этого? Меч нужен для разрезания! Нам понадобится проделать гораздо больше работы...
-            <br>
-            <p style="font-weight: bold;">-Кастер D</p>
+            Любительница различных видов развлечений, она является членом команды, которой всегда удается держать себя в хорошем настроении, независимо от ситуации. <br>
+            Её щедрость в конечном итоге является основной причиной того, что она на мели всё время.
         </p>
 
         <h3>Архивная запись 2 </h3>
         <p>Требуется <span class="sky">уровень доверия: 100%</span></p>
         <br>
         <p>
-            Ch'en закончила Королевскую гвардейскую школу Виктории с отличием по всем обязательным предметам и блестящими рекомендациями от своих 
-            профессоров. Вернувшись в Люнгмен, она почти сразу же вступила в Гвардейский Департамент.
+            Латеранское оружие является уникальным боевым средством среднего и дальнего радиуса действия, по слухам, созданным самими латеранцами, 
+            и, таким образом, ставшее одним из их символов. 
             <br>
-            Никто ничего не знает о её жизни до поступления в  школу L.G.D., и никто не сомневается в её способностях, преданности или ненависти к врагам. 
-            Полицейские, работающие с Ch'en, часто жаловались на её поведение - строгое и слишком суровое. 
-            Все думали, что этот суровый характер исчезнет в борьбе за власть, и она смягчится после того, как будет изношена бесконечными инцидентами. 
+            Его убойная сила не является исключительной, но оно лучше подходит для темперамента среднестатистического гражданина Латерано,
+            чем холодная сталь, тем самым становясь предпочтительным оружием для Латеранцев. 
+            В настоящее время каждый латеранец носит, по крайней мере, одно из них для личной защиты. 
             <br>
-            Неожиданно за последние два года снизился уровень как преступности, так и несчастных случаев, а молодое поколение офицеров стало продвигаться 
-            по службе быстрее и по существу. Ch'en была повышена в должности и вошла в состав одной из наиболее важных групп Департамента - 
-            Специального инспекционного отдела.
-            <br>
-            Членам этой группы, как правило, не разрешается служить более двух лет - для защиты своей жизни и снижения стресса. Возможно, эта должность не 
-            подходит для длительной службы: казалось, карьера старых инспекторов всегда заканчивается героическим самопожертвованием.
-            <br>
-            Но Ch'en не отступила. Она даже не знала, что такое отступать.
-            <br>
-            Она стала самым быстропродвигающимся офицером в истории полиции Люнгмена, а также самым молодым специальным инспектором в Департаменте. 
-            Те, кто высмеивал её, были впечатлены её настойчивостью. В конце концов, планирование будущего - это одно дело. 
-            Но планирование каждого дня - совершенно другое.
-            <br>
-            Почему она была такой жёсткой? Зачем она так жила? Никто не мог понять.
-            <br>
-            В её мусорной корзине часто можно заметить разорванную на мелкие кусочки или яростно смятую бумагу.
+            Exusiai может показаться излишне расслабленной, но её меткость одна из лучших в Rhodes Island. 
+            С одной стороны, ей не хватает внимания для других вещей, кроме обслуживания и эксплуатации своего оружия. 
+            С другой стороны, её врожденные таланты в стрельбе, включая визуальное отслеживание и подгадывание момента, вызывают зависть у всех снайперов.
         </p>
 
         <h3>Архивная запись 3 </h3>
         <p>Требуется <span class="sky">уровень доверия: 150%</span></p>
         <br>
         <p>
-            Конечно, Ch'en не законченный трудоголик.
+            В то время как Exusiai идет против того, что можно было бы ожидать от латеранца,
+            и она никогда не решала восставать против каких-либо неблагоприятных обстоятельств.
             <br>
-            Офицеры, которые её знают, говорят, что она почти идеальна. Она работает эффективно, разумно распределяя своё время, так что она может ещё 
-            тренироваться и заниматься своими увлечениями. Каждая минута её дня наполнена содержательной деятельностью.
+            Она любит только счастливые вещи и выросла счастливым человеком, как бы просто это не звучало. 
             <br>
-            И всё же это ещё больше беспокоит её коллег. Обычно она отменяет себе выходные и работает сверхурочно в ночное время. 
-            Также обычным делом является то, что гора бумажной волокиты однажды исчезает только, чтобы её вызвали на срочную встречу, 
-            когда она собралась посмотреть фильм.
-            <br>
-            Она механически эффективна. Естественно, люди спрашивают её,
-            <br>
-            "У Вас стресс?"
-            <br>
-            "Для этого нет причин".
-            <br>
-            Никто никогда не получал от нее другого ответа.
-            <br>
-            Ch'en живет так каждый день, всегда делая все возможное для Люнгмена и оттачивая свои навыки. 
-            Она всегда становится лучше, и нет предела для её совершенствования.
-            <br>
-            Но какую именно цель она преследует?
-            <br>
-            Даже её друзья не сказали бы, что понимают Ch'en. Она пытается сделать абсолютно всё.
+            Судя по её происхождению, возможно, латеранцы не такие замкнутые в себе, как принято считать...
         </p>
 
         <h3>Архивная запись 4 </h3>
         <p>Требуется <span class="sky">уровень доверия: 200%</span></p>
         <br>
         <p style="text-align: justify;">
-            [Засекреченная запись] 
+            Даже видя нимб и крылья, люди часто забывают, что Exusiai из Латерано. Только когда тема кружится вокруг религии, 
+            она реагирует с благочестием, столь характерным для латеранцев. 
             <br>
-            "Твой отец порвал с тобой все связи. Он не имеет никакого отношения и ко мне, но никому из нас нет до этого дела.
+            Лишь немногие места за пределами Латерано придерживаются такой первозданной, чистой веры, и из-за этого очень немногие замечают 
+            благочестие Exusiai. 
             <br>
-            Ты хочешь уйти?
+            Но те, кто всё-таки видят, что одна и та же личность придерживается таких прогрессивных ценностей и в то же время сохраняет 
+            благовение перед своей верой, без каких-либо явных противоречий. 
             <br>
-            Ты можешь, но мне нужно кое-что сказать тебе перед тем, как ты уйдешь.
-            <br>
-            Я на самом деле знаю, кто тот старик.
-            <br>
-            Но я многое забываю - например, ту ночь, когда у тебя с другом было небольшое приключение. Это легко забыть.
-            <br>
-            Это моя вина. Я совершил непростительную ошибку.
-            <br>
-            Я забуду.
-            <br>
-            Если ты захочешь уехать, я отправлю тебя в безопасный, богатый и стабильный город. Там у тебя будет мирная жизнь.
-            <br>
-            И ты попрощаешься со всем здесь. С домом, который ты ненавидишь, с улицой, которую ты терпеть не можешь, с людьми, которые тебе не нравятся.
-            <br>
-            Просто ты потеряешь возможность узнать правду. Факты опасны, и я не могу позволить невинным людям впутаться в это.
-            <br>
-            Злишься? Ты злишься на меня? Ты ненавидишь меня?
-            <br>
-            Ну, конечно. Позволь мне быть тем, кого ты ненавидишь. Ненавидь такого бессильного человека, как я.
-            <br>
-            <br>
-            Вот твой другой выбор.
-            <br>
-            Ты решаешь остаться.
-            <br>
-            С этого момента я буду тренировать тебя. Ты будешь вольна ненавидеть меня и даже пытаться убить, если захочешь.
-            <br>
-            Почему бы и нет? Конечно, ты можешь. Это будет естественно.
-            <br>
-            Твое тело и разум принадлежат тебе. Я могу научить тебя различать правильное и неправильное, 
-            и если у тебя всё получится, ты сможешь управлять Ориджиниумом сама по себе.
-            <br>
-            Не забывай об этом, просто сделай это.
-            <br>
-            Способность делать правильные вещи стоит тяжелой работы. Необходимость исправлять ошибки может быть фатальной.
-            <br>
-            Даже я не знаю, что нас ждет в городе. Там полно возможностей. Может случиться всё, что угодно.
-            <br>
-            Неважно, если ты не поймешь сейчас, ты поймешь позже.
-            <br>
-            Эй, я всё еще помню. Я помню последнюю вещь, что ты сказала.
-            <br>
-            Ну что, продолжаешь или сдаешься?
-            <br>
-            Выбирай".
-            <br>
-            <br>
-            ...Конец симуляции...
-            <br>
-            Возвращение к главному интерфейсу...
+            Кроме того, только наблюдая за Exusiai с этой точки зрения можно понять, что за ее иногда коварной ухмылкой лежит чистая душа.
         </p>
 
         <h2>Повышение</h2>
         <p>Разблокируется <span class="sky">при повышении до Элиты II</span></p>
         <br>
         <p>
-            Она вернётся.
+            Exusiai - моя полная противоположность. Она, кажется, прекрасно ладит с кем угодно, но позволяет очень немногим 
+            людям стать ей близкими.
         </p>
+        <p style="font-weight: bold;">-Texas</p>
 
     </div>
 
@@ -2322,213 +2244,213 @@
                 </tr>
                 <tr>
                     <td class="cent" >Назначение ассистентом</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_001.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Doctor, your safety will be my responsibility from now on.</td>
-                    <td >Доктор, Ваша безопасность теперь будет моей обязанностью.</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_001.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Leader! Give us something to do~</td>
+                    <td >Лидер, скажите, что мы должны сделать~</td>
                 </tr>
                 <tr>
                     <td class="cent" >Разговор 1</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_002.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >I've always had my suspicions about Rhodes Island. Still do.</td>
-                    <td >Я всегда имела подозрения на счёт Rhodes Island. До сих пор имею.</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_002.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Leader! Let's throw a party! We can play some hip-hop and eat apple pie! The best life is the party life! No party, no life!</td>
+                    <td >Лидер! Давайте устроим вечеринку! Мы можем включить хип-хоп и есть яблочный пирог! Лучшая жизнь это жизнь с вечеринками! Нет вечеринок - нет жизни!</td>
                 </tr>
                 <tr>
                     <td class="cent" >Разговор 2</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_003.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Why are you staring at me? Nothing better to do?</td>
-                    <td >Почему ты пялишься на меня? Нечем занятся?</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_003.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Locked and loaded, ready for action! What's the objective today, Leader?</td>
+                    <td >Заряжена и готова к бою! Какая цель у нас сегодня, Лидер?</td>
                 </tr>
                 <tr>
                     <td class="cent" >Разговор 3</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_004.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Hmph.</td>
-                    <td >Хм.</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_004.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Some people believe that money can buy everything. But that saying doesn't apply to me! If I want someone to rest in pieces, no amount of money can save them~</td>
+                    <td >Некоторые люди верят, что деньги могут купить всё. Но это не относится ко мне! Если я хочу видеть кого-то мёртвым, то никакое количество денег не спасёт его~</td>
                 </tr>
                 <tr>
                     <td class="cent" >Разговор после Повышения 1</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_005.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >I know every nook and cranny of Lungmen. The docks, the neon signs, the winding paths, I can see them all clear as day in my mind. I'll never forget them.</td>
-                    <td >Я знаю каждый закоулок Люнгмена. Доки, неоновые знаки, извилистые пути, я вижу их всех ясными, как день в моем сознании. Я никогда их не забуду.</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_005.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >My first wish: to receive eight new guns! We angels all have our own guns for defense, but owning just one gun is so lame, right?</td>
+                    <td >Моё первое желание: получить 8 новых пушек! Мы, ангелы, имеем наши собственные пушки для защиты, но владеть всего одной такой скучно, правда?</td>
                 </tr>
                 <tr>
                     <td class="cent" >Разговор после Повышения 2</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_006.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Things have been deteriorating around here lately. I'll be on guard, but I still don't want you doing anything stupid.</td>
-                    <td >В последнее время ситуация здесь всё ухудшается. Я буду начеку, но я всё равно не хочу, чтобы ты наделал глупостей.</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_006.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >My second wish... find someone to help me turn off this light over my head!</td>
+                    <td >Моё второе желание... найти кого-то, кто сможет помочь выключить этот свет над моей головой!</td>
                 </tr>
                 <tr>
                     <td class="cent" >Разговор после увеличения Доверия 1</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_007.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Maybe one day my efforts will be appreciated, but until then...</td>
-                    <td >Может быть, однажды мои усилия будут оценены, но до тех пор...</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_007.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >The only reason Texas can live without a care and with all that swag is that she's got me watching over her. That's the obvious truth, right?</td>
+                    <td >Единственная причина, по которой Техас может жить без забот и так флексить, заключается в том, что я всегда присматриваю за ней. Разве это не очевидно?</td>
                 </tr>
                 <tr>
                     <td class="cent" >Разговор после увеличения Доверия 2</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_008.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Amiya trusts you completely. When I see you two together, it makes me wonder, what if I had someone like that by my side...</td>
-                    <td >Амия тебе полностью доверяет. Когда я вижу вас двоих вместе, я задаюсь вопросом, что если бы у меня был кто-то вроде неё рядом...</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_008.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >If you ever run into an angel with black horns oozing ominous vibes, please tell her for me: I've never forgotten her.</td>
+                    <td >Если Вы когда-нибудь встретите ангела с чёрными рогами, источающую зловещую ауру, пожалуйста, скажите ей за меня, что я её не забыла.</td>
                 </tr>
                 <tr>
                     <td class="cent" >Разговор после увеличения Доверия 3</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_009.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >I've... I've never been able to put that much faith in anyone, not even...</td>
-                    <td >Я... Я никогда не могла никому так сильно доверять, даже...</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_009.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Us Penguin Logistics girls ain't so bad, right? Wanna come be our boss? Ehehe, just kidding.</td>
+                    <td >Мы, девчата из Пингвин Логистикс, не так плохи, правда? Хотите стать нашим боссом? Ахаха, просто шучу.</td>
                 </tr>
                 <tr>
                     <td class="cent" >Бездействие</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_010.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Doctor? You fell asleep? Hmph. How careless.</td>
-                    <td >Доктор? Вы уснули? Хм. Как небрежно.</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_010.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >...Lord, is this someone we gotta save too?</td>
+                    <td >...Боже, ещё кто-то, кого мы должны спасти?</td>
                 </tr>
                 <tr>
                     <td class="cent" >Вербовка</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_011.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >I am the leader of L.G.D.'s Special Inspector Group, Ch'en. I have my own reasons, but I'll be joining you for a while. Seeing as we're already well acquainted from our prior work together, I'll ask you to take me to the office now.</td>
-                    <td >Я глава Специального инспекционного отдела L.G.D, Чень. У меня есть свои причины, но я присоединюсь к вам ненадолго. Поскольку мы уже хорошо знакомы с нашей предыдущей совместной работы, я попрошу Вас отвести меня в штаб.</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_011.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Our slogan is "Long live the Penguin Empire". Are you our client? You can call me Exusiai. I'm nothing like that Lupo ice queen. I'm always down for some fun!</td>
+                    <td >Наш слоган: «Да здравствует Пингвинская Империя». Вы наш клиент? Зовите меня Экзусиай. Я совсем не такая как та ледяная королева-волчица. Я всегда не против поразвлечься!</td>
                 </tr>
                 <tr>
                     <td class="cent" >Просмотр Боевых записей</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_012.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >It's all in the service of more efficient operations.</td>
-                    <td >Всё это ради более эффективного проведения операций.</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_012.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >I'm lovin' this feeling!</td>
+                    <td >Я просто обожаю это чувство!</td>
                 </tr>
                 <tr>
                     <td class="cent" >Повышение 1</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_013.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Another promotion? I'm used to it by now.</td>
-                    <td >Ещё одно повышение? Я уже привыкла к ним.</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_013.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Thanks for promoting me!</td>
+                    <td >Спасибо за повышение!</td>
                 </tr>
                 <tr>
                     <td class="cent" >Повышение 2</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_014.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Roger. Just give me all the missions your usual Operators can't handle.</td>
-                    <td >Принято. Просто дайте мне все задания, с которыми Ваши обычные оперативники не справятся.</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_014.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Leader... No, savior, I pledge to this gun in my hand to protect you until the very end of this world.</td>
+                    <td >Лидер... Нет, спаситель, я клянусь оружием в своей руке защищать вас до самого конца этого мира.</td>
                 </tr>
                 <tr>
                     <td class="cent" >Добавление в отряд</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_017.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Mou mantai.</td>
-                    <td class="parentCell"> Моу мантай<span style="color: grey; font-size: x-large;">*</span> <span class="tooltip">(Прим. Китайская разговорная слэнговая фраза "Расслабьтесь")</span></td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_017.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Squad combat? I'm very familiar with that.</td>
+                    <td >Сражение в отряде? Я с этим знакома.</td>
                 </tr>
                 <tr>
                     <td class="cent" >Назначение командиром отряда</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_018.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Listen up! We'll be much more efficient if we work together.</td>
-                    <td >Слушайте сюда! Мы будем намного эффективней, если будем работать вместе.</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_018.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >No one makes a better leader than me! You're very sensible.</td>
+                    <td >Никто не подходит на роль лидера больше чем я. Вы очень мудры.</td>
                 </tr>
                 <tr>
                     <td class="cent" >Отбытие</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_019.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Everyone! Prepare for battle!</td>
-                    <td >Всем приготовиться к бою!</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_019.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Let's go! Take them all by storm!</td>
+                    <td >Идём! Снесём их всех бурей!</td>
                 </tr>
                 <tr>
                     <td class="cent" >Начало операции</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_020.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Ready? Stick to the plan.</td>
-                    <td >Готовы? Следуем плану.</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_020.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >I already called dibs on the most lucrative real estate in Hell, and you guys all get a share. Rest easy!</td>
+                    <td >Я уже положила глаз на самую прибыльную недвижимость в аду, а вы, ребята, все получаете долю. Спите спокойно!</td>
                 </tr>
                 <tr>
                     <td class="cent" >Выбор оператора 1</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_021.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >This is Ch'en.</td>
-                    <td >Чень здесь.</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_021.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Ok!</td>
+                    <td >Окей!</td>
                 </tr>
                 <tr>
                     <td class="cent" >Выбор оператора 2</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_022.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Ready to move.</td>
-                    <td >Готова выступать.</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_022.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Is it my turn?</td>
+                    <td >Теперь моя очередь?</td>
                 </tr>
                 <tr>
                     <td class="cent" >Размещение на поле 1</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_023.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Moving out!</td>
-                    <td >Выдвигаемся!</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_023.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Follow me!</td>
+                    <td >Следуйте за мной!</td>
                 </tr>
                 <tr>
                     <td class="cent" >Размещение на поле 2</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_024.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Take them out fast.</td>
-                    <td >Расправьтесь с ними быстро.</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_024.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Let me create a diversion.</td>
+                    <td >Я проведу диверсию.</td>
                 </tr>
                 <tr>
                     <td class="cent" >Во время боя 1</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_025.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Slash!</td>
-                    <td >Разрез!</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_025.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Heaven's will!</td>
+                    <td >Воля Небес!</td>
                 </tr>
                 <tr>
                     <td class="cent" >Во время боя 2</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_026.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Flash!</td>
-                    <td >Вспышка!</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_026.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Rock n' roll!</td>
+                    <td >Рок н’ролл!</td>
                 </tr>
                 <tr>
                     <td class="cent" >Во время боя 3</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_027.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Drop your weapon!</td>
-                    <td >Бросай оружие!</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_027.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Unleash the comment wave!</td>
+                    <td >Выскажите волну мнений!</td>
                 </tr>
                 <tr>
                     <td class="cent" >Во время боя 4</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_028.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Show some respect!</td>
-                    <td >Прояви уважение!</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_028.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Apple pie!</td>
+                    <td >Яблочный пирог!</td>
                 </tr>
                 <tr>
                     <td class="cent" >4★ результат</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_029.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Such evil must be stopped, and by any means necessary.</td>
-                    <td >Такое зло должно быть остановлено любыми средствами.</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_029.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Wonderful! This is the chance of a lifetime. Charge on!</td>
+                    <td >Прекрасно! Такой шанс выпадает лишь раз в жизни. Вперёд!</td>
                 </tr>
                 <tr>
                     <td class="cent" >3★ результат</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_030.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >You have the courage to challenge me? I have to wonder why.</td>
-                    <td >У вас хватает смелости бросить мне вызов? Я должна задаться вопросом, почему.</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_030.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >May my hail of bullets bring you eternal peace.</td>
+                    <td >Пусть град моих пуль принесёт вам вечный покой.</td>
                 </tr>
                 <tr>
                     <td class="cent" >2★ результат</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_031.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >The wounded wait here for a medivac. The rest of you Operators, stay on guard.</td>
-                    <td >Раненым ждать эвакуацию здесь. Остальные оперативники, будьте начеку.</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_031.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >News of victory is the sweetest melody to my ears. All right, let's grab some drinks to celebrate when we get back!</td>
+                    <td >Новость о победе - самая сладкая мелодия для моих ушей. Ладно, давайте прихватим напитков, чтобы отпраздновать, когда вернемся!</td>
                 </tr>
                 <tr>
                     <td class="cent" >Провал Операции</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_032.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Tactical retreat. Don't break formation!</td>
-                    <td >Тактическое отступление. Не нарушать строй!</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_032.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Even a well-crafted gun will jam sometimes. Life is no different, so don't worry about it~</td>
+                    <td >Даже лучшая пушка иногда заклинивает. В жизни так же, так что не волнуйтесь об этом~</td>
                 </tr>
                 <tr>
                     <td class="cent" >Назначение на Объект</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_033.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >So these are Rhodes Island's internal operations? Bigger than I expected.</td>
-                    <td >Так это внутренние подразделения Rhodes Island? Больше, чем я ожидала.</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_033.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >I like this place!</td>
+                    <td >Мне нравится это местечко!</td>
                 </tr>
                 <tr>
                     <td class="cent" >Взаимодействие</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_034.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Hey! What are you doing!</td>
-                    <td >Эй! Что ты творишь!</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_034.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Yo!</td>
+                    <td >Йо!</td>
                 </tr>
                 <tr>
                     <td class="cent" >Сбор Доверия</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_036.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Doctor, you're in a good mood. Is it because that operation went well? Me too. How about that.</td>
-                    <td >Доктор, Вы в хорошем настроении. Это потому, что операция прошла хорошо? Я тоже. Не ожидали?</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_036.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Leader, wanna try out my weapon?</td>
+                    <td >Лидер, хотите пострелять с моего оружия?</td>
                 </tr>
                 <tr>
                     <td class="cent" >Титульный экран</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_037.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_037.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
                     <td >Arknights.</td>
                     <td >Аркнайтс.</td>
                 </tr>
                 <tr>
                     <td class="cent" >Приветствие</td>
-                    <td class="cent"><audio id="player"  preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_042.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
-                    <td >Oh, it's you, Doctor.</td>
-                    <td >О, это Вы, Доктор.</td>
+                    <td class="cent"><audio preload="metadata" controls="" style="margin-top:5px"> <source src="Audio/CN_042.mp3" type="audio/mp3">Your browser does not support the audio tag.</audio></td>
+                    <td >Yo, Leader!</td>
+                    <td >Яхууу, Лидер!</td>
                 </tr>              
             </tbody>
         </table>
