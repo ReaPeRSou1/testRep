@@ -1,0 +1,138 @@
+.selector
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#prev, #next
+{
+    cursor: pointer;
+    position: relative;
+    top: 100%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(200, 200, 200);
+    font-weight: bold;
+    font-size: 28px;
+    transition: 0.6s ease;
+    border: 1px solid gray;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+
+#dynamic_select, #part, #dynamic_select1, #part1
+{
+    display: block; 
+    margin: 10px auto 10px auto;
+    width: 20%;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0;
+    background-color: #535353;
+    border: none;
+    border-bottom: 2px solid #797979;
+    color: white;
+    padding: 20px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px;
+    text-align: center;
+}
+
+
+#dynamic_select::-ms-expand,  ::-ms-expand  
+{
+    display: none; 
+}
+
+#dynamic_select:hover, #dynamic_select:focus, #part:hover, #part:focus #dynamic_select1:hover, #part1:hover, #dynamic_select1:focus, #part1:focus
+{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.7);
+}
+
+h3
+{
+    text-align: center;
+}
+
+#read .prevButton
+{
+    position: absolute;
+    vertical-align: middle;
+}
+
+#read .nextButton
+{
+    position: absolute;
+    vertical-align: middle;
+}
+
+@media(max-width: 900px)
+{
+
+      .selector
+    {
+        height: auto;
+        width: 100%;
+    }
+
+    #dynamic_select, #part, #dynamic_select1, #part1
+    {
+        width: 60%;
+    }
+
+    h3
+    {
+        margin-top: 0;
+    }
+
+}
+
+@media (min-width: 1899px)
+{
+
+      h3
+    {
+        font-size: 22px;
+    }
+
+    #dynamic_select, #part,#dynamic_select1, #part1
+    {
+        font-size: 18px;
+    }
+
+}
+@media (min-width: 2200px)
+{
+
+      h3
+    {
+        font-size: 24px;
+    }
+    #dynamic_select, #part, #dynamic_select1, #part1
+    {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 3000px)
+{
+      h3
+    {
+        font-size: 26px;
+    }
+
+    #dynamic_select, #part
+    {
+        font-size: 22px;
+    }
+}

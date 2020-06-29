@@ -1,0 +1,140 @@
+#contentHolder
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#contentHolder .content
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: fit-content;
+    height: auto;
+    flex: 1 !important;
+    overflow: hidden;
+}
+
+#contentHolder .bg
+{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentContainer
+{
+    height: 100%;
+    width: 100%;
+    overflow:auto;
+    overflow-x: hidden;
+    background: #252525;
+    animation-name: popUp;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+}
+
+.contentContainer p
+{
+    text-align: center;
+}
+
+
+#myImg
+{
+    width: 100%;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s;
+}
+  
+@-webkit-keyframes fade 
+{
+    from {opacity: 0.4;}
+    to {opacity: 1; }
+    
+}
+  
+@keyframes fade 
+{
+    from {opacity: 0.4}
+    to {opacity: 1}
+}
+
+@-webkit-keyframes popUp 
+{
+    from 
+    {
+        height: 0%;
+    }
+    to 
+    {
+        height: 100%;
+    }
+}
+  
+@keyframes popUp 
+{
+    from 
+    {
+        height: 0%; 
+    }
+    to 
+    {
+        height: 100%;
+    }
+}
+
+.closebtn 
+{
+    position: absolute;
+    top: 170px;
+    right: 290px;
+    font-size: 55px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.inactive
+{
+    display: none;
+}
+
+@media (max-width: 800px)
+{
+    #contentHolder
+    {
+        margin-top: 0;
+        width: 96%;
+    }
+
+    #contentHolder .content
+    {
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+        display: block;
+    }
+    .closebtn 
+    {
+        z-index: 1;
+        top: 140px;
+        right: 30px;
+        font-size: 40px;
+    }
+
+    #contentHolder .bg
+    {
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
